@@ -1,0 +1,156 @@
+     /*HEADER*/
+body.bgcolor{
+background-color: #f3f3f3;
+}
+a:link {
+    color: white;
+    font-stretch: condensed;
+}
+.menu{
+  line-height: 50px;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+#imaginary_container{
+  float: right;
+}
+.stylish-input-group .input-group-addon{
+    background: white !important;
+}
+.stylish-input-group .form-control{
+	border-right:0;
+	box-shadow:0 0 0;
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+.relleno{
+  height: 20px;
+  }
+  .navColor {
+    background-color: #239D60;
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .navfix {
+    z-index: 1;
+    position: fixed;
+  }
+
+.navnone{
+  display: inline-block;
+  margin-left: 10px;
+}
+.blockinline{
+  display: inline-block;
+  list-style: none;
+  margin-left: 10px;
+  color: red;>>no sirve
+}
+.headerlogo{
+  height: 7rem;
+  margin-left: 0;
+  margin-right: 0;
+}
+.logopdtop{
+  padding: 2rem;
+  height: 6rem;
+}
+/*LINEA VERDE*/
+.contheig{
+  height: 30rem;
+}
+.bggray1{
+  height: 2rem;
+  background-color: #7CBD1E;
+  margin-top: 3rem;
+}
+.bggray2{
+  height: 2rem;
+  background-color: #7CBD1E;
+}
+
+.carousel-inner{
+  width: 100%;
+   max-height: 460px;
+align-items: center;
+}
+.carousel-inner > .item > img {
+
+  align-items: center;
+}
+/* MENU 2*/
+.nav2{
+  display: inline-block;
+  list-style: none;
+  margin-left: 10px;
+}
+
+/*contenido*/
+
+.content{
+  float: left;
+    font-size: 0.95em;
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin-bottom: 0 !important;
+}
+.contentdetail{
+  color: #7CBD1E;
+  font-stretch: condensed;
+}
+.imgContentrigth{
+  float: right;
+
+}
+.contentColorBttn{
+  background-color: #dddddd;
+  height: 2rem;
+}
+.categoryContenido p{
+  float: right;
+  margin-right: 10px
+}
+footer {
+  background-color: #239D60;
+  height: 30px;
+  width: 100%;
+}
+footer div p{
+  color: white;
+  margin-left: 10%;
+}
+a:link {
+    color: white;
+    font-stretch: condensed;
+}
+@media (max-width: 768px) {
+.imgContentrigth img{
+  width: 0;
+  height: 0;
+}
+div.col-md-4 img{
+  height: 0;
+  width: 0;
+}
+div.container h2{
+  text-align: center;
+  font-size: 130%;
+}
+div.categoryContenido{
+  font-size: 70%;
+  margin-right: 2px;
+  float: none;                               /*como quitar el float?*/
+  text-align: center;
+}
+footer div p{
+  color: white;
+  text-align: center;
+}
+}
